@@ -1,0 +1,14 @@
+def analyze_sentence(sentence):
+    // # Initialize counters
+    length_counter = len(sentence)  # Length of the sentence
+    word_counter = len(sentence.split())    # Count words using split()
+    // vowel_counter = sum(1 for char in sentence if char.lower() in 'aeiou')  # Count vowels
+
+    // # Print the results
+    print(f"Length of the sentence: {length_counter}")
+    print(f"Number of words: {word_counter}")
+    print(f"Number of vowels: {vowel_counter}")
+
+// # Example sentence
+sentence = "Hello World. This is a test."
+analyze_sentence(sentence)
